@@ -19,9 +19,6 @@ Make sure you have ``bash`` shell on your machine.
 The shell is usually implemented in the terminal of macos and linux system.
 For windows system, we recommend git bash.
 
-Also, you need to be a member of the Billingegroup organization on github.
-Please ask Simon to let you join the organization.
-
 Usage
 -----
 
