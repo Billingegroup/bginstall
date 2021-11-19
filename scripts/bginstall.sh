@@ -31,7 +31,7 @@ else
   echo -e "Please give a name of the environment where the PDFstream will be installed [pdfstream]: \c"
   read env2
   env2=${env2:-pdfstream}
-  conda create -n $env2 -c defaults -c nsls2forge pdfstream
+  conda create -n $env2 -c conda-forge -c defaults pdfstream
 fi
 # install diffpy-cmi
 echo "Would you like me to install Diffpy-CMI, the complex modeling software for PDF and more?"
